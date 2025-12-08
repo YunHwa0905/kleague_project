@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# 데이터 파일 (용량 큼)
+data/*.csv
+!data/.gitkeep
+
+# 모델 가중치 (용량 큼)
+models/*.pkl
+models/*.h5
+models/*.pth
+!models/.gitkeep
+
+# 출력 파일
+outputs/*.png
+outputs/*.csv
+outputs/*.txt
+!outputs/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 로그
+*.log
+
+# 캐시
+*.cache
+.cache/
